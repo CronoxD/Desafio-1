@@ -3,28 +3,33 @@
   <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" href="css/desafio.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <title>Blog platzi</title>
   </head>
   <body>
     <header>
-      <nav>
+      <div class="logo">
+        <img src="images/platzilogo.webp" alt="Logo de platzi"/>
+      </div>
+
+      <nav class="menu">
         <ul>
           <li>Cursos</li>
           <li>Blog</li>
           <li>FAQ</li>
           <li>Horarios</li>
           <li>Live</li>
+          <a class="button">Inicia sesión</a>
         </ul>
-        <button type="button" name="button">Inicia sesión</button>
       </nav>
       <section class="portada">
-        <div class="buscador">
-          <input type="search" name="search" />
-          <button type="button" name="button" class="icon-search"></button>
-        </div>
       </section>
     </header>
     <section class="portada">
+      <div class="buscador">
+        <input type="search" name="search" />
+        <button type="button" name="button" class="icon-search"></button>
+      </div>
       <img src="images/bibli.jpg" alt="Fondo de pantalla de la portada"/>
       <div class="portada-principal">
         <h1>Consejos que aumentarán tu efectividad al trabajar desde casa</h1>

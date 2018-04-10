@@ -8,6 +8,7 @@ header {
 body{
   font-family: 'Lato', sans-serif;
   margin: 0;
+  background: #EFEFEF;
 }
 
 .menu, .logo{
@@ -28,20 +29,20 @@ body{
 }
 
 .menu ul{
-  margin-top: 18px;
+  margin-top: 10px;
 
 }
 
 .menu li {
   display: inline-block;
   margin: 0;
-  padding: 0 20px;
+  padding: 10px 20px 0 20px;
   border-right: 1px solid white;
   color: white;
 }
 
 .menu li:hover {
-  margin-top: -4px; 
+  margin-top: -4px;
   border-top: 4px solid #97C93E;
 }
 
@@ -54,4 +55,39 @@ body{
   color: white;
   background: #FF4842;
   cursor: pointer;
+}
+
+.contenedor {
+  width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.portada{
+  padding-top: 33px;
+}
+
+.buscador {
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+.buscador input {
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 40px;
+}
+.buscador button {
+  background: #333333;
+  color: white;
+  border: 1px solid #333333;
+  font-size: 20px;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+}
+.portada-principal {
+  background-image: url('../images/bibli.jpg');
+  height: 550px;
+  background-size: cover;
 }

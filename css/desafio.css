@@ -19,6 +19,7 @@ body{
   position: absolute;
   right: 0;
   height: 55px;
+  cursor: pointer;
 }
 
 
@@ -63,7 +64,7 @@ body{
   margin: auto;
 }
 .portada{
-  padding-top: 33px;
+  padding-top: 53px;
 }
 
 .buscador {
@@ -85,9 +86,41 @@ body{
   border-radius: 5px;
   height: 40px;
   width: 40px;
+  cursor: pointer;
 }
 .portada-principal {
   background-image: url('../images/bibli.jpg');
   height: 550px;
+  position: relative;
   background-size: cover;
+}
+
+.portada-texto {
+  background: rgba(255,255,255,0.8);
+  width: 500px;
+  color: #515151;
+  padding: 30px;
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+}
+
+.portada-texto h1 {
+  margin: 0;
+}
+
+.nombre {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  color: #515151;
+  border-top: 1px solid #515151;
+  margin-top: 30px;
+}
+
+.nombre .icon-user {
+  color: white;
+  background: #C4C4C4;
+  border-radius: 50%;
+  padding: 10px;
 }

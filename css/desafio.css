@@ -114,7 +114,7 @@ body{
   justify-content: space-between;
   padding-top: 30px;
   color: #515151;
-  border-top: 1px solid #515151;
+  border-top: 1px solid #B7B7B7;
   margin-top: 30px;
 }
 
@@ -122,5 +122,57 @@ body{
   color: white;
   background: #C4C4C4;
   border-radius: 50%;
+  padding: 10px;
+}
+
+.fila-anuncios {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.anuncios{
+  margin-top: 40px;
+  color: #515151;
+}
+
+.anuncios h3{
+  font-size: 22px;
+  width: 320px;
+}
+
+.anuncio img{
+  width: 320px;
+}
+
+.nomFecha-anuncio {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #B7B7B7;
+  padding-top: 10px;
+}
+
+.pie {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lato', sans-serif;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.pie span {
+  padding: 10px 0;
+}
+
+.pie .num {
+  padding-left: 20px;
+}
+
+.pie button {
+  margin: 0px 10px;
+  background: #EAEAEA;
+  font-size: 16px;
+  border: 1px solid #CCCCCC;
+  font-family: 'Lato', sans-serif;
+  color: #666666;
   padding: 10px;
 }
